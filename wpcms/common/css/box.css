@@ -1,0 +1,478 @@
+@charset "utf-8";
+
+
+
+/* box
+-----------------------------------------------*/
+div.indexBox{
+	zoom:1;
+}
+div.indexBox ul{
+	width:700px;
+	line-height:0;
+	font-size:0;
+	/font-size:100%;
+	zoom:1;
+}
+div.indexBox ul li{
+	display:-moz-inline-box;
+	display:inline-block;
+	/display:inline;
+	width:210px;
+	margin:0 0 20px 20px;
+	background-color:#f7f7f7;
+	border:#CCC 1px solid;
+	vertical-align:top;
+	line-height:0;
+	font-size:0px;
+	/font-size:100%;
+	zoom:1;
+}
+div.indexBox ul li div.boxInner{
+	position:relative;
+	min-height:9.5em;
+	min-width:200px;
+	max-width:200px;
+	padding:10px 9px;
+	font-size:12px;
+	/font-size:100%;
+	line-height:1.5;
+	zoom:1;
+}
+* html div.indexBox ul li div{
+	height:11em;
+}
+div.indexBox ul li div h3{
+	zoom:1;
+}
+div.indexBox ul li.wide{
+	width:675px;
+}
+div.indexBox ul li.wide div.boxInner{
+	min-width:655px;
+	max-width:655px;
+}
+
+div.indexBox ul ul{
+	width:auto;
+	line-height:1.5;
+	font-size:12px;
+	/font-size:100%;
+	zoom:1;
+}
+div.indexBox ul ul li{
+	display:-moz-inline-box;
+	display:inline-block;
+	/display:inline;
+	width:auto;
+	margin:0 10px 10px 0;
+	background-color:#f7f7f7;
+	border:none;
+	vertical-align:top;
+	line-height:1.5;
+	font-size:12px;
+	/font-size:100%;
+	zoom:1;
+}
+div.indexBox ul ul li a{
+	display:block;
+	padding:5px;
+	border:#CCC 1px solid;
+	background-color:#EFEFEF;
+}
+
+div.saveTxtBox{
+	clear:both;
+	width:316px;
+	/width:310px;
+	margin:0 auto 20px auto;
+	padding-top:10px;
+	color:#000;
+}
+div.saveTxtBox p{
+	margin:0;
+	padding:10px;
+	border:#35ae01 1px solid;
+	background-color:#e4fade;
+	text-align:center;
+}
+
+div.formSet{
+	clear:both;
+	margin-bottom:15px;
+	border-bottom:#CCC 1px solid;
+}
+
+div.formSet dl{
+	clear:both;
+	border-top:#CCC 1px solid;
+	background-color:#f5f5f5;
+	zoom:1;
+}
+div.formSet dl:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+* html div.formSet dl{
+	display:inline-block;
+}
+*:first-child+html div.formSet dl{
+	display:inline-block;
+}
+div.formSet dl dt{
+	float:left;
+	width:12em;
+	/margin-bottom:-1.5em;
+	padding:8px 0 0 8px;
+	color:#536065;
+	font-weight:bold;
+}
+div.formSet dl dd{
+	margin-left:13em;
+	padding:8px 5px 3px 10px;
+	border-left:#ededed 1px solid;
+	background-color:#FFF;
+}
+
+div.formSet dl p.thumImgS img{
+	border:#b1b1b1 1px solid;
+}
+
+div.formSet dl p{
+	margin-bottom:0;
+	padding-bottom:5px;
+}
+div.formSet dl ul{
+	margin-bottom:0;
+}
+div.formSet input,
+div.formSet select,
+div.formSet textarea{
+	margin-bottom:5px;
+}
+div.formSet .radio input{
+	vertical-align:middle;
+	margin-right:3px;
+}
+
+div.formSet dl dd textarea,
+div.formSet dl dd input[type="text"]{
+	width:100%;
+}
+
+
+#popup div.formSet dl dd{
+	padding-bottom:10px;
+	min-height:1.5em;
+}
+* html #popup div.formSet dl dd{
+	height:1.5em;
+}
+#popup div.formSet dl dd p,
+#popup div.formSet dl dd ul,
+#popup div.formSet dl dd ol{
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+#popup div.formSet dl dd ul li{
+	list-style-type:disc;
+	margin-left:2em;
+}
+#popup div.formSet dl dd h1,
+#popup div.formSet dl dd h2,
+#popup div.formSet dl dd h3,
+#popup div.formSet dl dd h4{
+	margin-bottom:0;
+	padding:0 0 5px 0;
+	border:none;
+	background:none;
+}
+#popup div.formSet dl dd h1{
+	font-size:160%;
+}
+#popup div.formSet dl dd h2{
+	font-size:130%;
+}
+#popup div.formSet dl dd h3{
+	font-size:116%;
+}
+#popup div.formSet dl dd h4,
+#popup div.formSet dl dd h5,
+#popup div.formSet dl dd h6{
+	font-size:100%;
+}
+
+
+div.listTable{
+	clear:both;
+	margin-bottom:10px;
+	padding:0;
+	background-color:#FFF;
+	border:#b1b1b1 1px solid;
+	text-align:left;
+}
+div.listTable .wFull{
+	width:98%;
+}
+div.graphTable {
+	clear:both;
+	margin-bottom:10px;
+	padding:0;
+	background-color:#FFF;
+	border:#b1b1b1 1px solid;
+	text-align:left;
+}
+
+
+div.formBox01{
+	clear:both;
+	margin-bottom:10px;
+	padding:15px 20px 5px 20px;
+	background-color:#FFF;
+	border:#b1b1b1 1px solid;
+	text-align:left;
+}
+
+div.formBox02 {
+	background: #111111 url(/common/images/form_bg_02.gif) repeat-x 0 0;
+	color: #FFF;
+	padding:15px 20px 5px 20px;
+	zoom: 1;
+}
+div.formBox02 .innerType01 {
+	float:left;
+	width: 220px;
+}
+div.formBox02 .innerType02 {
+	float:left;
+	width: 300px;
+}
+div.formBox02 .innerType03 {
+	float:right;
+	width: 400px;
+	text-align: right;
+}
+div.formBox02 .innerType03 li dl {
+	/display: inline;
+}
+div.formBox02 .innerType04 li {
+	padding-right:20px;
+}
+div.formBox02 .innerType04 li dl {
+	/display: inline;
+}
+div.formBox02 .innerType04 label {
+	padding-right:3px;
+}
+
+div.formBox03 {
+	padding:15px 20px 5px 20px;
+}
+div.formBox03 .innerType01 {
+	padding-bottom: 2px;
+}
+div.formBox03 .innerType02 {
+	float:right;
+	width: 220px;
+	text-align: right;
+}
+div.formBox03 .innerType03 {
+	float:right;
+	width: 565px;
+	padding:5px 10px 0 0;
+	text-align: right;
+}
+
+div.formBox04 {
+	background: #111111 url(../images/form_bg_02.gif) repeat-x 0 0;
+	color: #FFF;
+	padding:15px 20px 5px 20px;
+	zoom:1;
+}
+div.formBox04 .btnList {
+	text-align:left;
+}
+div.formBox04 .btnList .inner {
+	padding-right: 20px;
+}
+
+div.formBox05 {
+	padding: 0 20px 5px 20px;
+}
+#main div.formBox05 #pageSubTtl h3 {
+	padding: 20px 30px;
+	margin-bottom: 0;
+}
+
+div.infoBox {
+	position: relative;
+}
+div.infoBox .inner {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+div.infoBox .edit {
+	color: #646464;
+}
+
+div.graphBox .inner {
+	clear:both;
+	padding:15px 20px 10px 20px;
+	background-color:#f2f2f2;
+	border-top:#fff 1px solid;
+	border-bottom:#b1b1b1 1px solid;
+	text-align:left;
+}
+div.graphBox .inner2 {
+	position: relative;
+	clear:both;
+	padding:15px 20px 10px 300px;
+	background-color:#f2f2f2;
+	border-top:#fff 1px solid;
+	border-bottom:#b1b1b1 1px solid;
+	text-align:left;
+}
+div.graphBox .graphScale {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	_left: -260px;
+}
+div.graphBox .btnList {
+	margin-top: 10px;
+}
+div.graphBox .inlineList,
+div.graphBox .inlineList li {
+	margin-bottom: 0;
+}
+
+div.pstBox {
+	position: relative;
+}
+div.pstBox h3 span {
+	font-size: 84%;
+	font-weight: normal;
+}
+
+
+div.previewBox {
+	clear:both;
+	padding:15px 20px;
+	border-top:#b1b1b1 1px solid;
+	text-align:left;
+}
+div.previewBox h3 {
+	padding-left: 0;
+	border: none;
+}
+div.previewBox h3 span {
+ font-weight: normal;
+ font-size: 84%;
+}
+div.previewBox .inner {
+	width: 325px;
+	margin:0 auto;
+}
+
+div.adminComment{
+	clear:both;
+	margin-bottom:20px;
+	border:#cc0000 1px solid;
+	background-color:#FFE6E7;
+	text-align:left;
+}
+div.adminComment dl{
+	padding:10px;
+}
+div.adminComment dt{
+	font-size:84%;
+	font-weight:bold;
+}
+
+
+div.loginBox{
+	clear:both;
+	width:340px;
+	margin:0 auto;
+	padding:20px 20px 15px 20px;
+	background-color:#FFF;
+	border:#b1b1b1 1px solid;
+	text-align:left;
+}
+div.loginBox dl input{
+	width:325px;
+	font-size:150%;
+	padding:5px;
+}
+div.loginBox dt{
+	font-weight:bold;
+}
+div.loginBox dd{
+	margin-bottom:15px;
+}
+div.loginBox p{
+	margin-bottom:30px;
+}
+
+div.formSet dl dd input.wSmall{
+	width:180px;
+}
+div.formSet dl dd input.wMedium{
+	width:50%;
+}
+div.formSet dl dd input.wFull{
+	width:100%;
+}
+
+#previewWindow{
+	position:relative;
+	height:450px;
+	margin-bottom:15px;
+	overflow:auto;
+}
+
+
+
+div.graphFormBox {
+	position: relative;
+	background: #111111 url(/common/images/form_bg_02.gif) repeat-x 0 0;
+	color: #FFF;
+	padding: 15px 20px 10px 20px;
+	zoom: 1;
+}
+div.graphFormBox h3 {
+	float: left;
+	width: 150px;
+	padding-bottom: 5px;
+}
+div.graphFormBox .colorList {
+	float: left;
+	width: 700px;
+}
+div.graphFormBox .colorList li {
+	float: left;
+	width: 340px;
+	margin-bottom: 5px;
+}
+div.graphFormBox .colorList li dt {
+	float: left;
+	width: 160px;
+}
+div.graphFormBox .colorList li dd {
+	float: left;
+	width: 130px;
+}
+div.graphFormBox .colorList li dd input {
+	width: 100px;
+}
+div.graphFormBox .btnBox {
+	position: absolute;
+	bottom: 15px;
+	right: 20px;
+	zoom: 1;
+}
+

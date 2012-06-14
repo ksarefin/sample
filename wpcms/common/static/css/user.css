@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* --------------------
+カスタマイズ用CSS
+ --------------------*/
+
+#main .wrapper {
+	width: 800px;
+}
+table.wpfTblStyle th{
+	background: #eff0f2;
+}
+table.wpfTblStyle th,
+table.wpfTblStyle td{
+	border: solid 1px #ccccc5;
+}
+table.wpfTblStyle tbody th{
+	width: 200px;
+    color:#444444;
+}
+table th.wpfMustBox {
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-image: url(../images/contact/ico_must_blue.gif);
+}
+.wpfWideS,
+.wpfWideM,
+.wpfWideL,
+.wpfTxtarea {
+	background: #f3f3e9;
+}
+.wpfInputMust.em {
+	background: #66aaee;
+}
+

@@ -1,0 +1,33 @@
+tinyMCE.init({
+		theme : "advanced",
+		mode : "specific_textareas",
+		editor_selector : "tinymce",
+		width : "100%",
+		height : "330",
+		language : "ja",
+		content_css : "/_sys-admin_/common/scripts/tinymce/themes/advanced/skins/default/content.css",
+		extended_valid_elements : "a[name|href|target|title|onclick|rel]",
+		plugins : "safari,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,inlinepopups,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
+		theme_advanced_buttons1 : "undo,redo,separator,removeformat,separator,cleanup,separator,code,separator",
+		theme_advanced_buttons2 : "tablecontrols,table,row_props,cell_props,delete_col,delete_row,col_after",
+		theme_advanced_buttons2_add : "col_before,row_after,row_before,split_cells,merge_cells",
+		theme_advanced_buttons3 : "bold,italic,underline,strikethrough,separator,justifyleft,justifycenter,justifyright,separator,bullist,numlist",
+		theme_advanced_buttons3_add : "separator,link,unlink,separator,sub,sup,separator,charmap,separator,image",
+		//separator,outdent,indent,
+		theme_advanced_buttons4 : "fontsizeselect,forecolor",
+		theme_advanced_path_location : "bottom",
+		theme_advanced_toolbar_location : "top",
+		theme_advanced_toolbar_align : "left",
+		theme_advanced_resizing : true,
+		theme_advanced_resize_horizontal : false,
+		theme_advanced_resizing_use_cookie : false,
+
+		apply_source_formatting : true,
+		convert_fonts_to_spans : true,
+		cleanup : true,
+		convert_urls : false,
+		dialog_type : "modal",
+		debug : false,
+		//onchange_callback : "changeConfirm"
+		onchange_callback : "buttonActionConfirm.onchangeConfirm"
+	});

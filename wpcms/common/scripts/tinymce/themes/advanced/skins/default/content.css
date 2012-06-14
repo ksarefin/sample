@@ -1,0 +1,61 @@
+body, td, pre {color:#000;
+    /* font-family:"‚l‚r ‚o–¾’©", "MS PMincho", "ƒqƒ‰ƒMƒm–¾’© Pro W3", "Hiragino Mincho Pro", serif;*/
+    font-family:
+	    Verdana,
+	    /* Arial, */
+	    Helvetica,
+	    Meiryo,
+	    "\30e1\30a4\30ea\30aa",
+	    Osaka,
+	    "\FF2D\FF33\20\FF30\30B4\30B7\30C3\30AF",
+	    "\30D2\30E9\30AE\30CE\89D2\30B4\20\50\72\6F\20\57\33",
+	    
+	    sans-serif;
+	    font-size:10pt;
+	    color:#333;
+	    /* line-height:160%; */
+    
+    font-size:12px; margin:8px; 
+}
+body {background:#FFF;}
+body.mceForceColors {background:#FFF; color:#000;}
+h1 {font-size: 160%;}
+h2 {font-size: 130%;}
+h3 {font-size: 116%;}
+h4 {font-size: 100%;}
+h5 {font-size: 100%;}
+h6 {font-size: 100%;}
+.mceItemTable{
+	font-size:12px;
+	border-collapse:collapse;
+}
+.mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 3px double #DDD;}
+.mceItemTable td, .mceItemTable th{
+	font-size:12px;
+	vertical-align:top;
+}
+a.mceItemAnchor {display:inline-block; width:11px !important; height:11px !important; background:url(img/items.gif) no-repeat 0 0;}
+td.mceSelected, th.mceSelected {background-color:#3399ff !important;}
+img {border:0;}
+table {cursor:default;}
+table td, table th {cursor:text; padding:5px;}
+ins {border-bottom:1px solid green; text-decoration: none; color:green;}
+del {color:red; text-decoration:line-through;}
+cite {border-bottom:1px dashed blue;}
+acronym {border-bottom:1px dotted #CCC; cursor:help;}
+abbr {border-bottom:1px dashed #CCC; cursor:help;}
+
+/* IE */
+* html body {
+scrollbar-3dlight-color:#F0F0EE;
+scrollbar-arrow-color:#676662;
+scrollbar-base-color:#F0F0EE;
+scrollbar-darkshadow-color:#DDD;
+scrollbar-face-color:#E0E0DD;
+scrollbar-highlight-color:#F0F0EE;
+scrollbar-shadow-color:#F0F0EE;
+scrollbar-track-color:#F5F5F5;
+}
+
+img:-moz-broken {-moz-force-broken-image-icon:1; width:24px; height:24px;}
+font[face=mceinline] {font-family:inherit !important;}

@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+
+.dspBlock {
+	display: table-row;
+}
+.dspNone {
+	display: none;
+}
+#main table.wpfTblStyle td p.wpfErrorMsg {
+	color:#F00;
+	background:url(../images/common/ico_error.gif) no-repeat 0 2px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.wpfErrorList {
+	margin-bottom: 20px;
+	color: #F00;
+	padding: 10px;
+	border: solid 1px #C00;
+}
+
+
+span.icoError {
+	background:url(../images/common/ico_error.gif) no-repeat 0 2px;
+	padding-left: 20px;
+}
+div.wpfErrorBox {
+	margin-bottom: 0;
+	background:url(../images/common/ico_error.gif) no-repeat 0 2px;
+	padding-left:20px;
+}
+div.wpfAgree{
+	text-align:center;
+}
+div.wpfAgree p{
+	width:225px;
+	height:45px;
+	margin:0 auto;
+	background:url(../images/contact/btn_confirm_off.gif) no-repeat left top;
+}
+input#wpfAgreeBtn{
+	width:225px;
+	height:45px;
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/contact/btn_confirm_on.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+input#wpfAgreeBtn:hover{
+	background-position:0 -45px;
+}
+input#wpfAgreeBtnNoscrpt{
+	display:block;
+	width:225px;
+	height:45px;
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/contact/btn_confirm_on.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+input#wpfAgreeBtnNoscrpt:hover{
+	background-position:0 -35px;
+}
+input#wpfBackBtn{
+	display:block;
+	height:35px;
+	width:170px;
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/contact/btn_back.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+input#wpfBackBtn:hover{
+	background-position:0 -35px;
+}
+input#wpfSendBtn{
+	display:block;
+	height:35px;
+	width:170px;
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/contact/btn_send.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+input#wpfSendBtn:hover{
+	background-position:0 -35px;
+}
+input#wpfFinBtn{
+	display:block;
+	height:35px;
+	width:170px;
+	margin:0;
+	padding:0;
+	border:none;
+	overflow:hidden;
+	text-indent:-9999px;
+	background:url(../images/contact/btn_top.gif) no-repeat 0 0;
+	cursor:pointer;
+}
+input#wpfFinBtn:hover{
+	background-position:0 -35px;
+}
+
+ul.wpfInlineList{
+	margin:0;
+	padding:0;
+}
+ul.wpfInlineList li{
+	display:inline;
+	padding-right:10px;
+	zoom:1;
+}
+ul.wpfInlineList li label {
+	white-space: nowrap;
+}
+ul.wpfInlineList li label input {
+	margin-right: 3px;
+}
+dl.wpfInlineListS {
+	float:left;
+}
+dl.wpfInlineListM,
+dl.wpfInlineListName {
+	float:left;
+	width: 195px;
+}
+dl.wpfInlineListL {
+	float:left;
+	width: 370px;
+}
+dl.wpfInlineListS dd,
+dl.wpfInlineListM dd,
+dl.wpfInlineListName dd,
+dl.wpfInlineListL dd {
+	font-size: 12px;
+}
+dl.wpfInlineListName dd {
+	padding-left: 40px;
+}
+.wpfFormat {
+	float: right;
+	width: 80px;
+	color: #06C;
+}
+.otherBox {
+	margin-top: 10px;
+}
+
+table th.wpfMustBox {
+	background: #EFF0F2 url(../images/contact/ico_must_blue.gif) no-repeat right top;
+}
+.wpfWide1em {
+	width: 1.5em;
+	display: inline-block;
+}
+.wpfWide2em {
+	width: 2.5em;
+	display: inline-block;
+}
+span.wpfNbox {
+	margin-right: 10px;
+}
+.wpfRbox {
+	width: 378px;
+}
+.wpfDescription {
+	margin-bottom: 10px;
+}
+.wpfSpace {
+	margin-top: 10px;
+}
+.wpfNotes {
+	clear: both;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #666;
+}
+.w50,
+.w130,
+.w370,
+.wpfWideS,
+.wpfWideM,
+.wpfWideL,
+.wpfTxtarea {
+	border: solid 1px #c2c2ba;
+	background: #f3f3e9;
+	padding: 3px;
+}
+.wpfWideS {
+}
+.wpfWideM {
+}
+.wpfWideL {
+}
+.wpfTxtarea {
+}
+.wpfInputMust.em {
+	background: #66aaee;
+}
+.w50 {
+	width: 50px
+}
+.w130 {
+	width: 130px;
+}
+.w370 {
+	width: 370px;
+}
+
+
+/* confirmBox
+-----------------------------------------------*/
+.wpfConfirmBox{
+	clear:both;
+	margin-bottom:15px;
+	padding:15px 15px 5px 15px;
+	border:#ccccc5 1px solid;
+	text-align:center;
+}
+#main .wpfConfirmBox p{
+	margin-bottom:10px;
+}
+
+table.submitControl{
+	margin:0 auto;
+}
+table.submitControl th,
+table.submitControl td{
+	padding:10px;
+	border:none;
+}
+table.submitControl td.leftCell input{
+	float:right;
+}
+
+
+#main h3 {
+	margin-bottom: 30px;
+}
+
+
+
+p.thanksTxt{
+	padding: 20px 0 80px 0;
+	text-align:center;
+}
+
+
+
+/* defaultSet Settings
+-----------------------------------------------*/
+.nameTr input {
+	width: 130px;
+}
+.kanaTr input {
+	width: 130px;
+}
+.addressTr input,
+.birthdayTr input,
+.telTr input {
+	width: 50px;
+}
+
+
+
