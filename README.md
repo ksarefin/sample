@@ -1,4 +1,0 @@
-sample
-======
-
-Form code sample
